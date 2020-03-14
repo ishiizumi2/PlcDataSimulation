@@ -13,6 +13,26 @@ type
   TPlcDataSimulationFrm = class(TForm)
     Parts8: TParts;
     Timer1: TTimer;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Label5: TLabel;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Edit8: TEdit;
+    Label6: TLabel;
+    Label7: TLabel;
+    ContinuityRead_Btn: TDspButton;
+    ContinutyWrite_Btn: TDspButton;
+    RandomRead_Btn: TDspButton;
+    RandomWrite_Btn: TDspButton;
+    TimerStop_Btn: TDspButton;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);

@@ -3,7 +3,7 @@ object PlcDataSimulationFrm: TPlcDataSimulationFrm
   Top = 109
   BorderIcons = [biSystemMenu]
   BorderStyle = bsNone
-  Caption = 'ystem Parameter'
+  Caption = 'Plc Data Simulation'
   ClientHeight = 612
   ClientWidth = 1016
   Color = 11184810
@@ -24,9 +24,9 @@ object PlcDataSimulationFrm: TPlcDataSimulationFrm
   object Parts8: TParts
     Left = 404
     Top = 5
-    Width = 209
+    Width = 222
     Height = 23
-    Caption = 'SYSTEM PARAMETER'
+    Caption = 'PLC DATA SIMULATION'
     FontF.Charset = ANSI_CHARSET
     FontF.Color = clBlue
     FontF.Height = -19

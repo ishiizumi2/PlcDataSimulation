@@ -13,17 +13,17 @@ type
   TPlcDataSimulationFrm = class(TForm)
     Parts8: TParts;
     Timer1: TTimer;
-    Edit1: TEdit;
-    Edit2: TEdit;
+    StartAdd1: TEdit;
+    EndAdd1: TEdit;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
-    Edit3: TEdit;
-    Edit4: TEdit;
+    StartAdd2: TEdit;
+    EndAdd2: TEdit;
     Label5: TLabel;
-    Edit5: TEdit;
-    Edit6: TEdit;
+    StartAdd3: TEdit;
+    EndAdd3: TEdit;
     Edit7: TEdit;
     Edit8: TEdit;
     Label6: TLabel;
@@ -44,6 +44,7 @@ type
     procedure DataMonitor;
   private
     tSender: TObject;
+    function AddressCheck():Boolean;
   public
   end;
 
@@ -109,7 +110,13 @@ begin
   if not SharedMemCheck then Close;
 end;
 
-
+function TPlcDataSimulationFrm.AddressCheck():Boolean;
+var
+  StartAddress , EndAddress : Double;
+begin
+  StartAddress := 0;
+  EndAddress := 0;
+end;
 
 
 

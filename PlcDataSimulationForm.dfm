@@ -220,53 +220,53 @@ object PlcDataSimulationFrm: TPlcDataSimulationFrm
     TabStop = True
     SecurityTag = AutoCommand
   end
-  object Edit1: TEdit
+  object StartAdd1: TEdit
     Left = 224
     Top = 88
     Width = 113
     Height = 23
     TabOrder = 0
-    Text = 'Edit1'
+    Text = '1'
   end
-  object Edit2: TEdit
+  object EndAdd1: TEdit
     Left = 224
     Top = 144
     Width = 113
     Height = 23
     TabOrder = 1
-    Text = 'Edit1'
+    Text = '1'
   end
-  object Edit3: TEdit
+  object StartAdd2: TEdit
     Left = 376
     Top = 88
     Width = 113
     Height = 23
     TabOrder = 2
-    Text = 'Edit1'
+    Text = '0'
   end
-  object Edit4: TEdit
+  object EndAdd2: TEdit
     Left = 376
     Top = 144
     Width = 113
     Height = 23
     TabOrder = 3
-    Text = 'Edit1'
+    Text = '0'
   end
-  object Edit5: TEdit
+  object StartAdd3: TEdit
     Left = 528
     Top = 88
     Width = 113
     Height = 23
     TabOrder = 4
-    Text = 'Edit1'
+    Text = '0'
   end
-  object Edit6: TEdit
+  object EndAdd3: TEdit
     Left = 528
     Top = 144
     Width = 113
     Height = 23
     TabOrder = 5
-    Text = 'Edit1'
+    Text = '0'
   end
   object Edit7: TEdit
     Left = 680

@@ -113,9 +113,22 @@ end;
 function TPlcDataSimulationFrm.AddressCheck():Boolean;
 var
   StartAddress , EndAddress : Double;
+  i:Integer;
+  St,En : TComponent;
+
 begin
   StartAddress := 0;
   EndAddress := 0;
+  for i:=1 to 3 do begin
+    St :=  FindComponent('StartAdd' + IntToStr(i));
+    if St <> nil then begin
+      if not(TEdit(St).Text = '') then
+
+    end;
+
+  end;
+
+
 end;
 
 
